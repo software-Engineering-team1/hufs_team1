@@ -1,5 +1,9 @@
 # hufs_team1
 
+### :bulb: project subject
+ <br>
+
+### :bulb: participants
 |Participant|Roles|Skills|
 |:---|:---|:---|
 |이유진|유진_roles|유진_skills|
