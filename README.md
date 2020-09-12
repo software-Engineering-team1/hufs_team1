@@ -6,7 +6,7 @@
 
 ### :bulb: Project Problem Statement
 #### Functional
-* SMART ICE CLOSET 은 바쁜 현대인과 옷을 고르는데 어려움을 겪는 일반인을 위한 서비스로 날씨, 해시태그, 색을 기반으로 옷을 추천해주는 스마트 옷장이다. 
+* SMART ICE CLOSET 은 바쁜 현대인과 옷을 고르는데 어려움을 겪는 일반인을 위한 서비스로 날씨, 해시태그, 색을 기반으로 옷을 추천해주는 시스템이다. 
 
 <br>
 
