@@ -31,7 +31,7 @@
 ### :bulb: participants
 |Participant|Roles|Skills|Training needs|
 |:---|:---|:---|:---|
-|이유진|Team Leader(liasion) <br> Meachine Learning Developer <br> Embedded developer|programming : Python, Java, Javascript, C <br> databases : MySQL, SQLite <br> Configuration management <br> Framework : Django, Express.js, Jsp|Meachine Learning, UML|
+|이유진|Team Leader(liasion) <br> Machine Learning Developer <br> Embedded developer|programming : Python, Java, Javascript, C <br> databases : MySQL, SQLite <br> Configuration management <br> Framework : Django, Express.js, Jsp|Machine Learning, UML|
 |이재성|UI/UX Designer <br> Android Application Developer|programming : C, Python, Kotlin <br> Configuration management <br> Framework : Django|UML|
 |정지원|Database designer <br> Backend Developer|programming ; C, Python, Java, Javascript <br> Configuration management <br> Framework : Spring, Django|UML <br> MySQL|
-|이영상|Meachine Learning Developer <br> Facilities management|programming : C, Python, Java <br> Configuration management <br> Framework : Django|UML|
+|이영상|Machine Learning Developer <br> Facilities management|programming : C, Python, Java <br> Configuration management <br> Framework : Django|UML|
