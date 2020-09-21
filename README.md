@@ -29,8 +29,16 @@
 
 <br>
 
-### :bulb: Use case Diagram
+### :bulb: Use case Diagram & Scenario
+#### Use case Diagram
+(use case diagram image)
 
+#### Scenario
+|||
+|:---|:---|
+|Scenario name||
+|Participating actor instances||
+|Flow of events||
 
 ### :bulb: participants
 |Participant|Roles|Skills|Training needs|
