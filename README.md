@@ -52,9 +52,9 @@
 
 |||
 |:---|:---|
-|Scenario no.2|Recommended today's outfit|
+|Scenario no.2|Recommended today's cody|
 |Participating actor instances|jiwon : User / young : Open weather API provider|
-|Flow of events|1. jiwon이 어플의 today cody 버튼을 누른다. <br> 2. 원하는 색과 해시태그를 선택해 recommend 버튼을 누른다. <br> 3. young이 제공한 날씨에 맞는 세벌의 outfit을 추천받는다. <br> 4. jiwon은 마음에 드는 코디 한 벌을 골라 select this cody 버튼을 누른다.|
+|Flow of events|1. jiwon이 어플의 today cody 버튼을 누른다. <br> 2. 원하는 색과 해시태그를 선택해 recommend 버튼을 누른다. <br> 3. young이 제공한 날씨에 맞는 세벌의 cody를 추천받는다. <br> 4. jiwon은 마음에 드는 cody 한 벌을 골라 select this cody 버튼을 누른다.|
 
 |||
 |:---|:---|
