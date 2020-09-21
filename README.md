@@ -46,19 +46,19 @@
 #### Scenario
 |||
 |:---|:---|
-|Scenario name|Take a picture of clothes|
+|Scenario no.1|Take a picture of clothes|
 |Participating actor instances|youjin : User / Phone camera|
 |Flow of events|1. youjin은 어플의 Camera 버튼을 누른다. <br> 2. capture 버튼을 눌러 검은색 반팔 티셔츠를 촬영한다. <br> 3. save photo 버튼을 눌러 옷 사진을 저장한다. <br> 4. 어플의 My closet 버튼을 누른다. <br> 5. top 카테고리에 들어가 검은색 반팔 티셔츠가 등록되어있는지 확인한다.|
 
 |||
 |:---|:---|
-|Scenario name|Recommended today's outfit|
+|Scenario no.2|Recommended today's outfit|
 |Participating actor instances|jiwon : User / young : Open weather API provider|
 |Flow of events|1. jiwon이 어플의 today cody 버튼을 누른다. <br> 2. 원하는 색과 해시태그를 선택해 recommend 버튼을 누른다. <br> 3. young이 제공한 날씨에 맞는 세벌의 outfit을 추천받는다. <br> 4. jiwon은 마음에 드는 코디 한 벌을 골라 select this cody 버튼을 누른다.|
 
 |||
 |:---|:---|
-|Scenario name|Sign up for SMART ICE CLOSET APP|
+|Scenario no.3|Sign up for SMART ICE CLOSET APP|
 |Participating actor instances|sang : User / jaesung : SMART ICE CLOSET APP 관리자|
 |Flow of events|1. sang이 어플의 SMARTICE Sign up 버튼을 누른다. <br> 2. Email, Password, 확인용Password, 이름, 성별 정보를 입력한 후 SUBMIT 버튼을 누른다. <br> 3. 입력한 Email 주소로 jaesung이 사용자 인증 메일을 전송한다. <br> 4. sang이 email 인증을 완료한다.|
 
