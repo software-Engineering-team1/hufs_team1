@@ -27,6 +27,10 @@
 * 옷에 대한 분류가 정확히 이루어져야 한다.
 * 사용자의 취향에 따라 정확히 추천되어야 한다.
 
+<br>
+
+### :bulb: Use case Diagram
+
 
 ### :bulb: participants
 |Participant|Roles|Skills|Training needs|
