@@ -41,7 +41,7 @@
 
 ### :bulb: Use case Diagram & Scenario
 #### Use case Diagram
-![image](https://user-images.githubusercontent.com/53362054/93765749-5f057d80-fc50-11ea-87e2-22bb935a8647.png)
+![image](https://user-images.githubusercontent.com/53362054/94361497-a7f58000-00ef-11eb-9c2c-01d70b123029.png)
 
 #### Scenario
 |||
