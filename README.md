@@ -71,3 +71,8 @@
 
 ### :bulb: Class diagram
 1개
+
+<br>
+
+### :bulb: Object diagram
+1
