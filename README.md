@@ -62,3 +62,12 @@
 |Participating actor instances|sang : User / jaesung : SMART ICE CLOSET APP 관리자|
 |Flow of events|1. sang이 어플의 SMARTICE Sign up 버튼을 누른다. <br> 2. Email, Password, 확인용Password, 이름, 성별 정보를 입력한 후 SUBMIT 버튼을 누른다. <br> 3. 입력한 Email 주소로 jaesung이 사용자 인증 메일을 전송한다. <br> 4. sang이 email 인증을 완료한다.|
 
+<br>
+
+### :bulb: Sequence diagram
+3개 - 옷등록, 옷추천, 옷상태(옷장안의 옷의 유무)
+
+<br>
+
+### :bulb: Class diagram
+1개
