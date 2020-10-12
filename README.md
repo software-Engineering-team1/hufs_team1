@@ -54,10 +54,14 @@
 |:---|:---|
 |Scenario no.2|Recommended today's cody|
 |Participating actor instances|jiwon : User / young : Open weather API provider|
-|Flow of events|1. jiwon이 어플의 today cody 버튼을 누른다. <br> 2. jiwon이 원하는 색과 해시태그를 선택해 recommend 버튼을 누른다. <br> 3. jiwon은 young이 제공한 날씨에 맞는 세벌의 cody를 추천받는다. <br> 4. jiwon은 마음에 드는 cody 한 벌을 골라 select this cody 버튼을 누른다.|
+|Flow of events|1. jiwon이 어플의 today cody 버튼을 누른다. <br> 2. jiwon이 검정색과 캐주얼스타일을 선택해 recommend 버튼을 누른다. <br> 3. jiwon은 young이 제공한 날씨에 맞는 세벌의 cody를 추천받는다. <br> 4. jiwon은 마음에 드는 cody 한 벌을 골라 select this cody 버튼을 누른다.|
 
 #### Use case Description
-
+|||
+|:---|:---|
+|Use case Description|Recommend cody|
+|Participating actor instances|User|
+|Flow of events|1. User가 어플의 today cody 버튼을 누른다. <br> 2. User는 원하는 색상과 스타일을 선택해 recommend 버튼을 누른다. <br> 3. Server는 사용자가 선택한 색상과 스타일, 날씨 정보를 토대로 세가지 옷 세트를 추천한 후 결과를 Mobile Application 으로 전송한다. <br> 4. Mobile Application은 Server로부터 받은 결과를 어플에 띄운다. <br> 5. User는 세가지 옷 세트중에 가장 마음에 드는 세트 하나를 선택한다.|
 
 <br>
 
