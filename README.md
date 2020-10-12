@@ -40,7 +40,7 @@
 <br>
 
 ### :bulb: Use case Diagram & Scenario
-#### Use case Diagram
+#### Use case Diagram (이유진)
 ![image](https://user-images.githubusercontent.com/53362054/95646672-f4848680-0b05-11eb-8b21-3b008c0da427.png)
 
 #### Scenario
@@ -56,7 +56,7 @@
 |Participating actor instances|jiwon : User / young : Open weather API provider|
 |Flow of events|1. jiwon이 어플의 today cody 버튼을 누른다. <br> 2. jiwon이 검정색과 캐주얼스타일을 선택해 recommend 버튼을 누른다. <br> 3. jiwon은 young이 제공한 날씨에 맞는 세벌의 cody를 추천받는다. <br> 4. jiwon은 마음에 드는 cody 한 벌을 골라 select this cody 버튼을 누른다.|
 
-#### Use case Description
+#### Use case Description (이유진)
 |||
 |:---|:---|
 |Use case Description|Recommend cody|
@@ -71,6 +71,9 @@
 
 #### Recommend clothes (이영상)
 ![image](https://user-images.githubusercontent.com/53362054/95746659-20546780-0cd2-11eb-8d61-cce5655dd2d8.png)
+
+#### Recognize clothes comming in/out (이재성)
+![image](https://user-images.githubusercontent.com/53362054/95749371-6f040080-0cd6-11eb-8a08-0577dbc2f6b3.png)
 
 <br>
 
