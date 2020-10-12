@@ -67,7 +67,7 @@
 
 ### :bulb: Sequence diagram
 #### Register clothes (정지원)
-![image](https://user-images.githubusercontent.com/53362054/95743993-999d8b80-0ccd-11eb-859f-ab60c131d807.png)
+![image](https://user-images.githubusercontent.com/53362054/95746414-b50a9580-0cd1-11eb-9260-84c6b481b470.png)
 
 <br>
 
