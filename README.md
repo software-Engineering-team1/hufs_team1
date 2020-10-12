@@ -69,6 +69,9 @@
 #### Register clothes (정지원)
 ![image](https://user-images.githubusercontent.com/53362054/95746414-b50a9580-0cd1-11eb-9260-84c6b481b470.png)
 
+#### Recommend clothes (이영상)
+![image](https://user-images.githubusercontent.com/53362054/95746659-20546780-0cd2-11eb-8d61-cce5655dd2d8.png)
+
 <br>
 
 ### :bulb: Class diagram
