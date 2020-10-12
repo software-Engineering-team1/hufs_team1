@@ -66,7 +66,8 @@
 <br>
 
 ### :bulb: Sequence diagram
-3개 - 옷등록, 옷추천, 옷상태(옷장안의 옷의 유무)
+#### Register clothes (정지원)
+![image](https://user-images.githubusercontent.com/53362054/95743993-999d8b80-0ccd-11eb-859f-ab60c131d807.png)
 
 <br>
 
