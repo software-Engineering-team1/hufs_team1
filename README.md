@@ -77,10 +77,11 @@
 
 <br>
 
-### :bulb: Class diagram
-1개
+### :bulb: Class diagram (다같이)
+![image](https://user-images.githubusercontent.com/53362054/95816251-97810e80-0d59-11eb-912d-077441b470d8.png)
 
 <br>
 
-### :bulb: Object diagram
-1
+### :bulb: Object diagram (이유진)
+![image](https://user-images.githubusercontent.com/53362054/95816275-a8ca1b00-0d59-11eb-8e00-bc9846f1ec73.png)
+
