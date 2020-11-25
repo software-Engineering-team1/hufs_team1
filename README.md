@@ -85,3 +85,8 @@
 ### :bulb: Object diagram (이유진)
 ![image](https://user-images.githubusercontent.com/53362054/95816275-a8ca1b00-0d59-11eb-8e00-bc9846f1ec73.png)
 
+<br>
+
+### :bulb: Design goal
+* Usability - 사용자가 사용하기 쉽도록 application으로 만든다.
+* Response time - Android에서 사용자의 옷 image를 로드할 때 imageView대신 glide라이브러리를 사용해서 빠르게 로드할 수 있게 만든다.
