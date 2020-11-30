@@ -90,3 +90,7 @@
 ### :bulb: Design goal
 * Usability - 사용자가 사용하기 쉽도록 application으로 만든다.
 * Response time - Android에서 사용자의 옷 image를 로드할 때 imageView대신 glide라이브러리를 사용해서 빠르게 로드할 수 있게 만든다.
+
+### :bulb: Deployment Diagram
+![image](https://user-images.githubusercontent.com/53362054/100609647-ad6e8100-3351-11eb-90f6-40287495aed4.png)
+
