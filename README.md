@@ -4,6 +4,10 @@
 머신러닝 기반 사용자 맞춤 개인 코디 서비스
 <br>
 
+<details>
+<summary>Participants</summary>
+<div markdown="1">
+
 ### :bulb: participants
 |Participant|Roles|Skills|Training needs|
 |:---|:---|:---|:---|
@@ -12,8 +16,15 @@
 |정지원|Database designer <br> Backend Developer|programming ; C, Python, Java, Javascript <br> Configuration management <br> Framework : Spring, Django|UML <br> MySQL|
 |이영상|Machine Learning Developer <br> Facilities management|programming : C, Python, Java <br> Configuration management <br> Framework : Django|UML|
 
+</div>
+</details>
+
 <br>
 
+<details>
+<summary>Problem statement</summary>
+<div markdown="1">
+  
 ### :bulb: Project Problem Statement
 #### Functional
 * SMART ICE CLOSET 은 바쁜 현대인과 옷을 고르는데 어려움을 겪는 일반인을 위한 서비스로 날씨, 해시태그, 색을 기반으로 옷을 추천해주는 시스템이다. 
@@ -37,7 +48,14 @@
 * 옷에 대한 분류가 정확히 이루어져야 한다.
 * 사용자의 취향에 따라 정확히 추천되어야 한다.
 
+</div>
+</details>
+
 <br>
+
+<details>
+<summary>Use case Diagram & Scenario</summary>
+<div markdown="1">
 
 ### :bulb: Use case Diagram & Scenario
 #### Use case Diagram (이유진)
@@ -63,7 +81,15 @@
 |Participating actor instances|User|
 |Flow of events|1. User가 어플의 today cody 버튼을 누른다. <br> 2. User는 원하는 색상과 스타일을 선택해 recommend 버튼을 누른다. <br> 3. Server는 사용자가 선택한 색상과 스타일, 날씨 정보를 토대로 세가지 옷 세트를 추천한 후 결과를 Mobile Application 으로 전송한다. <br> 4. Mobile Application은 Server로부터 받은 결과를 어플에 띄운다. <br> 5. User는 세가지 옷 세트중에 가장 마음에 드는 세트 하나를 선택한다.|
 
+
+</div>
+</details>
+
 <br>
+
+<details>
+<summary>Sequence Diagram</summary>
+<div markdown="1">
 
 ### :bulb: Sequence diagram
 #### Register clothes (정지원)
@@ -75,7 +101,14 @@
 #### Recognize clothes comming in/out (이재성)
 ![image](https://user-images.githubusercontent.com/53362054/95749371-6f040080-0cd6-11eb-8a08-0577dbc2f6b3.png)
 
+</div>
+</details>
+
 <br>
+
+<details>
+<summary>Class Diagram & Object Diagram</summary>
+<div markdown="1">
 
 ### :bulb: Class diagram (다같이)
 ![image](https://user-images.githubusercontent.com/53362054/95816251-97810e80-0d59-11eb-912d-077441b470d8.png)
@@ -85,11 +118,23 @@
 ### :bulb: Object diagram (이유진)
 ![image](https://user-images.githubusercontent.com/53362054/95816275-a8ca1b00-0d59-11eb-8e00-bc9846f1ec73.png)
 
+</div>
+</details>
+
 <br>
 
+<details>
+<summary>Design goal</summary>
+<div markdown="1">
+
+  
 ### :bulb: Design goal
 * Usability - 사용자가 사용하기 쉽도록 application으로 만든다.
 * Response time - Android에서 사용자의 옷 image를 로드할 때 imageView대신 glide라이브러리를 사용해서 빠르게 로드할 수 있게 만든다.
+
+
+</div>
+</details>
 
 ### :bulb: Deployment Diagram
 ![image](https://user-images.githubusercontent.com/53362054/100755228-4cb57600-342f-11eb-9fec-f549ad7f797e.png)
