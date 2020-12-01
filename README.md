@@ -92,5 +92,38 @@
 * Response time - Android에서 사용자의 옷 image를 로드할 때 imageView대신 glide라이브러리를 사용해서 빠르게 로드할 수 있게 만든다.
 
 ### :bulb: Deployment Diagram
-![image](https://user-images.githubusercontent.com/53362054/100609647-ad6e8100-3351-11eb-90f6-40287495aed4.png)
+![image](https://user-images.githubusercontent.com/53362054/100755228-4cb57600-342f-11eb-9fec-f549ad7f797e.png)
+
+<
+
+1. 옷 등록 <br>
+```
+TakePictures(Android-RegisterClothes) -> SendData(Android-Communication) 
+-> <<socket>> 
+-> GetData(MLServer-Communication) -> ClassifyClothes(MLServer-ClassifyClothes) -> SendData(MLServer-Communication) 
+-> <<http>> 
+-> GetData(Server-Communication) -> Database
+```
+* Android 에서 옷 사진 촬영 -> ML로 사진 소켓으로 전송 -> ML에서 옷 분류(색, 패턴, 카테고리/Train된 Model을 통해서) -> 결과를 서버로 전송 -> 서버에서 받아서 Database에 저장
+  
+2. 옷 추천 <br>
+```
+SelectColor&SelectStyle&GetWeatherInfo(Android-GetInfoForRecommend) -> SendData(Android-Communication) 
+-> <<http>> 
+-> GetData(Server-Communication) -> RecommendCody(Server-WebServer) -> SendData(Server-Communication) 
+-> <<http>> 
+-> GetData(Android-GetData)
+```
+* Android에서 색,스타일, 날씨정보 서버로 전송 -> 추천알고리즘(이때 LoadData를 통해 Database에서 옷 정보들 가져옴) -> 추천결과 Android로 다시 전송  
+  
+3. 옷 유무 체크 <br>
+```
+RecognizeLight+RecognizeGesture+TakePictures(EmbeddedBoard-CheckClothesStatus) -> SendData(EmbeddedBoard-SendData) 
+-> <<socket>> 
+-> GetData(MLServer-Communication) -> ClassifyClothes(MLServer-ClassifyClothes) -> SendData(MLServer-Communication) 
+-> <<http>> 
+-> GetData(Server-Communication) -> Database
+```
+
+* 옷장에 부착된 라즈베리파이에서 옷을 넣었는지/뺐는지 센서로 확인& 넣은/뺀 옷을 카메라로 사진촬영 -> ML로 사진과 유무 정보 socket으로 전송 -> ML 에서 카메라로 찍힌 옷을 분류(어떤 옷인지) -> Server로 옷의정보와 옷의 유무를 전송 ->  Server는 받아서 DB에 저장
 
