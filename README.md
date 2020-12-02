@@ -130,7 +130,7 @@
 
 
 ### :bulb: Deployment Diagram
-![image](https://user-images.githubusercontent.com/53362054/100755228-4cb57600-342f-11eb-9fec-f549ad7f797e.png)
+![image](https://user-images.githubusercontent.com/53362054/100823323-54a90080-3497-11eb-9949-8cb8d1d53d61.png)
 
 
 #### 1. 옷 등록 <br>
@@ -147,7 +147,7 @@ TakePictures(Android-RegisterClothes) -> SendData(Android-Communication)
 ```
 SelectColor&SelectStyle&GetWeatherInfo(Android-GetInfoForRecommend) -> SendData(Android-Communication) 
 -> <<http>> 
--> GetData(Server-Communication) -> RecommendCody(Server-WebServer) -> SendData(Server-Communication) 
+-> GetData(Server-Communication) -> RecommendCody(Server-Server) -> SendData(Server-Communication) 
 -> <<http>> 
 -> GetData(Android-GetData)
 ```
