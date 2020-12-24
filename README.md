@@ -111,12 +111,12 @@
 <div markdown="1">
 
 ### :bulb: Class diagram (정지원)
-![image](https://user-images.githubusercontent.com/53362054/95816251-97810e80-0d59-11eb-912d-077441b470d8.png)
+![class](https://user-images.githubusercontent.com/53362054/103095931-a3385d80-4645-11eb-8a82-6bb0e4884300.PNG)
 
 <br>
 
 ### :bulb: Object diagram (이영상)
-![image](https://user-images.githubusercontent.com/53362054/95816275-a8ca1b00-0d59-11eb-8e00-bc9846f1ec73.png)
+![object](https://user-images.githubusercontent.com/53362054/103095972-bd723b80-4645-11eb-81fe-1bda50e369da.PNG)
 
 </div>
 </details>
@@ -133,7 +133,7 @@
 
 
 ### :bulb: Deployment Diagram (이유진, 이재성)
-![image](https://user-images.githubusercontent.com/53362054/101284584-15c2d400-3824-11eb-9efa-bf2c9fe9d6ec.png)
+![deploy](https://user-images.githubusercontent.com/53362054/103095995-ccf18480-4645-11eb-9e87-f9f3de807ba2.PNG)
 
 </div>
 </details>
