@@ -110,12 +110,12 @@
 <summary>Class Diagram & Object Diagram</summary>
 <div markdown="1">
 
-### :bulb: Class diagram (다같이)
+### :bulb: Class diagram (정지원)
 ![image](https://user-images.githubusercontent.com/53362054/95816251-97810e80-0d59-11eb-912d-077441b470d8.png)
 
 <br>
 
-### :bulb: Object diagram (이유진)
+### :bulb: Object diagram (이영상)
 ![image](https://user-images.githubusercontent.com/53362054/95816275-a8ca1b00-0d59-11eb-8e00-bc9846f1ec73.png)
 
 </div>
@@ -123,11 +123,17 @@
 
 <br>
 
+<details>
+<summary>Design goal & Deployment Diagram</summary>
+<div markdown="1">
   
 ### :bulb: Design goal
 * Usability - 사용자가 사용하기 쉽도록 application으로 만든다.
 * Response time - Android에서 사용자의 옷 image를 로드할 때 imageView대신 glide라이브러리를 사용해서 빠르게 로드할 수 있게 만든다.
 
 
-### :bulb: Deployment Diagram
+### :bulb: Deployment Diagram (이유진, 이재성)
 ![image](https://user-images.githubusercontent.com/53362054/101284584-15c2d400-3824-11eb-9efa-bf2c9fe9d6ec.png)
+
+</div>
+</details>
