@@ -132,7 +132,7 @@
 * Response time - Android에서 사용자의 옷 image를 로드할 때 imageView대신 glide라이브러리를 사용해서 빠르게 로드할 수 있게 만든다.
 
 
-### :bulb: Deployment Diagram (이유진, 이재성)
+### :bulb: Deployment Diagram (이유진, 이재성) - 이미지를 클릭하면 더 잘보입니다!
 ![deploy](https://user-images.githubusercontent.com/53362054/103095995-ccf18480-4645-11eb-9e87-f9f3de807ba2.PNG)
 
 </div>
